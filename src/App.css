@@ -140,7 +140,7 @@ select {
 
 @media (max-width:340px){
     .todo-input, .todo-button{
-        font-size: 8px
+        font-size: 15px;
     }
     select{
         font-size: .9rem;
