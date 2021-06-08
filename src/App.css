@@ -74,6 +74,7 @@ ol, ul{
     align-items: center;
     transition: all 1s ease;
 }
+
 .filter-todo {
     padding: 1rem;
 }
@@ -115,47 +116,22 @@ ol, ul{
 }
 
 select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    appearance: none;
-    outline: 0;
-    box-shadow: none;
     border: 0 !important;
-    background-image: none;
-}
-
-.select {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-}
-
-select {
     color: #ff6f47;
     font-family: "Poppins", sans-serif;
     cursor: pointer;
     width: 12rem;
 }
 
-.select::after {
-    content: "\25BC";
-    position: absolute;
-    left: 60.74%;
-    padding: 1rem;
-    background: #ff6f47;
-    cursor: pointer;
-    pointer-events: none;
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width:480px){
     .todo-input, .todo-button{
         font-size: 1.5rem
-    }
-    .select::after{
-        left: 64.2%;
     }
     .todo{
         font-size: 1rem;
@@ -165,9 +141,6 @@ select {
 @media (max-width:340px){
     .todo-input, .todo-button{
         font-size: 1rem
-    }
-    .select::after{
-        left: 62.8%;
     }
     select{
         font-size: .9rem;
