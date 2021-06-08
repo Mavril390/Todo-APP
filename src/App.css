@@ -143,7 +143,7 @@ select {
 .select::after {
     content: "\25BC";
     position: absolute;
-    left: 270px;
+    left: 60.74%;
     padding: 1rem;
     background: #ff6f47;
     cursor: pointer;
@@ -155,7 +155,7 @@ select {
         font-size: 1.5rem
     }
     .select::after{
-        left: 216px;
+        left: 64.2%;
     }
     .todo{
         font-size: 1rem;
@@ -167,7 +167,7 @@ select {
         font-size: 1rem
     }
     .select::after{
-        left: 156px;
+        left: 62.8%;
     }
     select{
         font-size: .9rem;
