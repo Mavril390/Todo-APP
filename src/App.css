@@ -32,7 +32,7 @@ form{
 form input,
 form button {
     padding: 0.5rem;
-    font-size: 2rem;
+    font-size: 30px;
     border: none;
     background: white;
 }
@@ -131,7 +131,7 @@ select {
 
 @media (max-width:480px){
     .todo-input, .todo-button{
-        font-size: 1.5rem
+        font-size: 20px;
     }
     .todo{
         font-size: 1rem;
@@ -140,7 +140,7 @@ select {
 
 @media (max-width:340px){
     .todo-input, .todo-button{
-        font-size: 1rem
+        font-size: 15px
     }
     select{
         font-size: .9rem;
