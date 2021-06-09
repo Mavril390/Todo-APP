@@ -130,6 +130,9 @@ select {
 }
 
 @media (max-width:480px){
+    .todo-input{
+        width: 70%;
+    }
     .todo-input, .todo-button{
         font-size: 20px;
     }

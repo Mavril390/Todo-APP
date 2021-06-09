@@ -21,7 +21,7 @@ function Form( { setInputText, todos, setTodos, inputText, setStatus } ){
     }
     return(
         <form>
-            <div>
+            <div style={{display: 'flex', justifyContent: "center", alignItems="center"}}>
                 <input 
                     value={inputText} 
                     onChange={inputTextHandler} 
